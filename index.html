@@ -8,7 +8,7 @@
 
 	:root{
 		font-family: 'Lato', sans-serif;
-		background-image: url(images/VT-Wallpaper-2.jpg);
+		background-image: url(VT-Wallpaper-2.jpg);
 		}
 
 	hr{
@@ -28,11 +28,7 @@
 		font-family: 'Cinzel Decorative', cursive;
 	}
 
-	#degreeMajor {
-		font-size: 20px;
-		text-align: center;
-		margin-top: -20px;
-	}
+
 
 	.workCompany {
 		text-decoration: underline;
@@ -55,7 +51,7 @@
 		background-color: rgba(255, 255, 255, 0.87);
 	}
 
-	.workExperience {
+	.boxStyle {
 		border: 1px solid rgb(107, 107, 107);
     border-radius: 5px;
     margin: 10px 5px;
@@ -66,8 +62,18 @@
 
 	.column {
   float: left;
-  width: 33.33%;
+  width: 32%;
+	border: 1px solid rgb(107, 107, 107);
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+	background-color: rgba(241, 241, 241, 0.87);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+	#facePhoto{
+
+	}
 
 /* Clear floats after the columns */
 	.row:after {
@@ -107,14 +113,23 @@
 	<br>
 
 			<div class="row" style="padding-top: 10px">
-				<div id="degreeMajor" class="column">
-					<h3>B.S. Business Management Consulting and Analytics</h3>
+				<div id="degreeMajor" class="column" style=" text-align: center; line-height: 3px">
+					<h4 style="font-size: 24px; margin-top: 10px"><u>Degree</u></h4>
+					<p style="font-size: 18px">B.S. Business Management Consulting and Analytics</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h4 style="font-size: 24px; margin-top: 10px"><u>In-Major GPA</u></h4>
+					<p style="font-size: 18px; padding-top: -50px">3.51</p>
 				</div>
 				<div id="facePhoto" class="column" style="text-align: center">
-					<img src="images/face-photo.png" alt="Profile Photo" width="30%" height="30%">
+					<img src="face-photo.png" alt="Profile Photo" width="50%" height="50%">
 				</div>
-				<div id=links style="font-size: 20px; text-align: center" class="column">
-					<a href="https://linkedin.com/in/afshinhamidi" target="_blank">LinkedIn</a>
+				<div id=links style="text-align: center; line-height: 3px; padding-bottom: 50px;" class="column">
+					<h4 style="font-size: 24px; margin-top: 10px"><u>Links</u></h4>
+					<a href="https://linkedin.com/in/afshinhamidi" target="_blank" style="font-size: 18px;">LinkedIn</a>
 				</div>
 
 
@@ -127,7 +142,7 @@
 	<hr>
 
 				<!-- BOOZ ALLEN HAMILTON WORK EXPERIENCE-->
-				<div class="workExperience">
+				<div class="boxStyle">
 					<div id="BoozAllenDetails" style="padding: 5px" >
 						<h5 class="alignLeft workCompany" style="margin-bottom: -10px">Booz Allen Hamilton</h5>
 						<p class="alignRight" style="font-family: Dosis"><b>June 2019 - August 2019<br>McLean, Virginia</b></p>
@@ -151,7 +166,7 @@
 	<br>
 	<br>
 	<br>
-				<div class="workExperience">
+				<div class="boxStyle">
 					<!-- EDDY ALEXANDER WORK EXPERIENCE -->
 					<div id="EddyAlexanderDetails" style="padding: 5px">
 						<h5 class="alignLeft workCompany" style="margin-bottom:-10px">Eddy Alexander</h5>
