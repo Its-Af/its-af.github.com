@@ -2,119 +2,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Lato&display=swap" rel="stylesheet" rel="stylesheet">
-
-
-<style>
-
-	:root{
-		font-family: 'Lato', sans-serif;
-		background-image: url(images/VT-Wallpaper-2.jpg);
-		}
-
-	hr{
-		border: none;
-		height: 5px;
-		background-color: rgb(132, 16, 38);
-	}
-
-	#nameTitle {
-		border-color: rgb(132, 16, 38);
-		border-width: 17px;
-		border-style:double; 	
-		text-align: center;
-		background-color: rgba(255, 255, 255, 0.87);
-		color: rgb(0, 0, 0);
-		padding: 5px 5px 3px 5px;
-		font-family: 'Cinzel Decorative', cursive;
-		font-size: 45px;
-	}
-
-
-
-	.workCompany {
-		text-decoration: underline;
-		font-size: 20px;
-	}
-
-	#workExpText {
-		text-transform: uppercase;
-		padding-bottom:2px;
-		border-style:double;
-		border-color: rgb(132, 16, 38);
-		border-width: 12px;
-		border-bottom:hidden;
-		font-size: 30px;
-		width: 350px;
-		margin-bottom: -8px;
-		margin-left:auto;
-		margin-right:auto;
-		text-align: center;
-		background-color: rgba(255, 255, 255, 0.87);
-	}
-
-	.boxStyle {
-		border: 1px solid rgb(107, 107, 107);
-    border-radius: 5px;
-    margin: 10px 5px;
-    padding: 4px;
-		background-color: rgba(241, 241, 241, 0.87);
-		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	}
-
-	#facePhoto {
-		text-align: center; 
-		padding-top: 2%; 
-		padding-bottom: 2%; 
-	}
-
-	.column {
-		float: left;
-		width: 32%;
-		border: 1px solid rgb(107, 107, 107);
-		border-radius: 5px;
-		margin-left: 0.5%;
-		margin-right: 0.5%;
-		background-color: rgba(241, 241, 241, 0.87);
-		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	}
-
-	.groupedText{
-		line-height:1%;
-		
-	}
-
-	.verticalcenter {
-    display: table-cell;
-    height: 400px;
-    vertical-align: middle;
-	}
-
-/* Clear floats after the columns */
-	.row{
-		display: flex;
-		width: 100%
-	}
-
-	.row:after {
-  	content: "";
-  	display: table;
-  	clear: both;
-	}
-
-	.alignLeft {
-		float: left;
-
-	}
-
-	.alignRight {
-		float: right;
-	}
-
-	.alignCenter {
-  	margin: 0 auto;
-}
-
-</style>
+<link href="CSS/style.css" rel="stylesheet">
 
 
 
@@ -133,37 +21,42 @@
 	<br>
 
 			<div class="row" style="padding-top: 10px; max-width: 100%;">
-				<div id="degreeMajor" class="column" style=" text-align: center;">
+				<div id="degreeMajor" class="column3 boxStyle" style=" text-align: center;">
 					<span class="groupedText">
-						<h4 style="font-size: 36px; font-weight: bolder;"><u>&nbsp Degree &nbsp</u></h4>
-						<p style="font-size: 24px;line-height: 28px;">B.S. Business Management Consulting and Analytics</p>
+						<h4 style="font-size: 36px; line-height: 32px; font-weight: bolder;"><u>&nbsp Degree &nbsp</u></h4>
+						<p style="font-size: 24px;line-height: 28px; margin-top: -40px;">B.S. Business Management Consulting and Analytics</p>
 					</span>
 					<br>
 					<span class="groupedText">
-						<h4 style="font-size: 36px; margin-top: 10px; font-weight: bolder;"><u>&nbsp Skills &nbsp</u></h4>
-						<p style="font-size: 24px; padding-top: -50px; line-height: 28px;">Python, HTML, CSS, Java, SQL, MS Office, MS Project, SharePoint, Tableau, Qlik</p>
+						<h4 style="font-size: 36px; line-height: 32px; margin-top: 10px; font-weight: bolder;"><u>&nbsp Skills &nbsp</u></h4>
+						<p style="font-size: 24px; margin-top: -40px; line-height: 28px;">Python, HTML, CSS, Java, SQL, MS Office, MS Project, SharePoint, Tableau, Qlik</p>
 					</span>
 					<br>
 					<span class="groupedText">
-						<h4 style="font-size: 36px; margin-top: 10px; font-weight: bolder;"><u>&nbsp Open to Roles In &nbsp</u></h4>
-						<p style="font-size: 24px; padding-top: -50px; line-height: 28px;">Program Development, Business Consulting, Data Analytics</p>
+						<h4 style="font-size: 36px; line-height: 28px;; margin-top: 10px; font-weight: bolder;"><u>&nbsp Open to Roles In &nbsp</u></h4>
+						<p style="font-size: 24px; margin-top: -40px; line-height: 32px;">Program Development, Business Consulting, Data Analytics</p>
 					</span>
 				</div>
-				<div id="facePhoto" class="column">
+				<div id="facePhoto" class="column3 boxStyle">
 					<span class="verticalcenter">
 						<img src="images/face-photo.png" alt="Profile Photo" width="70%" >
 					</span>
 				</div>
-				<div id="links" style="text-align: center; padding-bottom: 50px;" class="column">
+				<div id="links" style="text-align: center; padding-bottom: 50px;" class="column3 boxStyle">
 					<span class="groupedText">
-						<h4 style="font-size: 36px; line-height: 3px; font-weight: bolder;"><u>&nbsp Links &nbsp</u></h4>
+						<h4 style="font-size: 36px; line-height: 32px; font-weight: bolder;"><u>&nbsp Links &nbsp</u></h4>
 						<br>
 						<br>
-						<a href="https://drive.google.com/file/d/1htYiQhknF0E8jEO5IhnTEb49-ueSU0si/view?usp=sharing" target="_blank" style="font-size: 24px;">Resume</a>
+						<a href="about.html" style="font-size: 24px;">A Bit About Me</a>
 						<br>
 						<br>
 						<br>
-						<a href="https://linkedin.com/in/afshinhamidi" target="_blank" style="font-size: 24px;">LinkedIn</a>
+						<a href="https://drive.google.com/file/d/1htYiQhknF0E8jEO5IhnTEb49-ueSU0si/view?usp=sharing" target="_blank" style="font-size: 24px;">My Resume</a>
+						<br>
+						<br>
+						<br>
+						<a href="https://linkedin.com/in/afshinhamidi" target="_blank" style="font-size: 24px;">My LinkedIn Page </a>
+
 					</span>
 				</div>
 			</div>
