@@ -2,7 +2,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Lato&display=swap" rel="stylesheet" rel="stylesheet">
-<link href="CSS/style.css" rel="stylesheet">
+<link href="CSS/style.scss" rel="stylesheet">
 
 
 
@@ -10,49 +10,97 @@
 <html>
   <head>
     <title>A Little Bit About Afshin Hamidi</title>
-    <link rel="icon" type="image/png" href="images/favicon.png"/>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <body>
-
-    <div id="container1" class="row">
-      <div id="whoAmIPhoto" class="column2">
-				<span class="verticalCenter">
-					<img src="images/frontHeadshot.JPG" alt="Front Headshot">
-				</span>
-			</div>
-			<div id="whoAmI" class="columns2">
-				<span>
-					<ul style="color: white">
-						<li>I am a recent graduate of Virginia Tech's Pamplin School of Business</li>
-						<li>I began my college career focusing on Biology and Human Nutrition Science on a pre-med track</li>
-						<li>Upon finishing my sophomore year, I realized my interests in business, technology, and programming and made a switch into my desired area of study</li>
-					</ul>
-				</span>
-			</div>
+	<body>
+		
+		<div class="parallax1">
+			<h1 class="parallaxText">Who Am I</h1>
 		</div>
 
-		<div id="container2" class="row">	
-			<div id="myExperience" class="column2">
-				<span class="verticalCenter">
-					<ul style="color: white">
-						<li>Consulting internship at Booz Allen Hamilton</li>
-						<li>Business Development Consultant at Eddy Alexander</li>
-						<li>1.5 years of experience with Python programming through various courses while attending Virginia Tech</li>
-						<li>Currently building a foundation of knowledge in HTML, CSS, and Java</li>
-					</ul>
-				</span>
-			</div>
-			<div id="myExperiencePhoto" class="column2">
-				<span class="verticalCenter">
-					<img src="images/purpleFacePhoto.JPG">
-				</span>
-			</div>
 
-    </div>
-<br>
+		<main class="flexContainer">
+
+			<section class="mainContent mainColor">
+				<h2>Who Am I</h2>
+				<p>
+					I am a recent graduate of Virginia Tech's Pamplin School of Business. I began my academic career majoring in Biology and Human Nutrition Science with hopes to pursue a medical career later on; however, while working in various dental offices I quickly realized that I enjoy using technology to solve organizational needs rather than participating in the clinical work that takes place in the back. With this realization, I found my new interests in technology and programming, in which I hope to utilize to solve future customers' and clients' business needs.
+				</p>
+			</section>
+
+			<aside class="sidebar">
+				<img src="images/frontHeadshot.JPG" alt="Front Headshot" class="responsive" >
+			</aside>
+
+		</main>
 
 
+		<div class="parallax2">
+			<h1 class="parallaxText">My Experiences</h1>
+		</div>
+
+
+		<main class="flexContainer">
+
+			<aside class="sidebar">
+				<img src="images/purpleFacePhoto.JPG" alt="Headshot 2" class="responsive">
+			</aside>
+
+
+			<section class="mainContent blue">
+				<h2>My Experience</h2>
+				<p>
+					I am a recent graduate of Virginia Tech's Pamplin School of Business. I began my academic career majoring in Biology and Human Nutrition Science with hopes to pursue a medical career later on; however, while working in various dental offices I quickly realized that I enjoy using technology to solve organizational needs rather than participating in the clinical work that takes place in the back. With this realization, I found my new interests in technology and programming, in which I hope to utilize to solve future customers' and clients' business needs.
+				</p>
+			</section>
+
+		</main>
+
+
+		<div class="parallax3">
+			<h1 class="parallaxText">My Passions</h1>
+		</div>
+
+
+		<main class="flexContainer">
+
+			<section class="mainContent blue">
+				<h2>My Passions</h2>
+				<p>
+					Outside of classes and work, I enjoy spending meaningful time with my family and friends. Coming from Virginia and being a football fanatic, I'm a huge Washington Redskins fan and love D.C. sports in general. I spend a lot of my free time working out, playing sports, or watching sports with friends and family. I also have began making music, hip-hop music specifically, as another side hobby of mine. And recently, I've found it to be a lot of fun to work on my programming skills during my free time as well!
+				</p>
+			</section>
+
+			<aside class="sidebar">
+				<img src="images/family.JPG" alt="Family Photo" class="responsive">
+			</aside>
+
+		</main>
+
+
+
+		<div class="parallax4">
+			<h1 class="parallaxText">Looking Ahead</h1>
+		</div>
+
+
+		<main class="flexContainer">
+
+			<aside class="sidebar">
+				<img src="images/weddingFacePhoto.PNG" alt="Headshot 3" class="responsive">
+			</aside>
+
+
+			<section class="mainContent blue">
+				<h2>Looking Ahead</h2>
+				<p>
+					In the upcoming years, I hope to gain experience as a consultant while using my technical skillset to identify and alleviate organizations' pain points. With my recent programming interests, I hope to master front-end development in the near future and get my feet wet as a professional programmer within a few years.
+				</p>
+			</section>
+
+		</main>
 
   </body>
 
