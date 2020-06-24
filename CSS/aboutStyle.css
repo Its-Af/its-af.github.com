@@ -1,0 +1,196 @@
+html{
+  border: 2px solid black;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #CCD6DD;
+  margin-bottom: 10px;
+  }
+
+
+#nameTitle {
+  border-color: rgb(132, 16, 38);
+  border-width: 17px;
+  border-style:double; 	
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.295);
+  color: rgb(0, 0, 0);
+  padding: 5px 5px 3px 5px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 45px;
+  box-shadow: 0 20px 30px rgba(255, 255, 255, 0.19), 0 10px 20px rgba(255, 255, 255, 0.23);
+}
+
+
+.boxStyle {
+  border: 1px solid rgb(107, 107, 107);
+  background-color: rgba(192, 192, 192, 0.87);
+  box-shadow: 0 20px 40px rgba(212, 212, 212, 0.596), 0 10px 20px rgba(43, 43, 43, 0.726);
+}
+
+
+.imgCenterHorizontally {
+  text-align: center; 
+  padding-top: 2%; 
+  padding-bottom: 2%; 
+}
+
+.imgBorder{
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.sectionHeader{
+  font-size: 36px; 
+  line-height: 32px; 
+  font-weight: bolder;
+}
+
+.sectionBody {
+  font-size: 24px;
+  line-height: 28px; 
+  margin-top: -40px;
+}
+
+.column3 {
+  float: left;
+  width: 32%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.column2 {
+  flex: 50%;
+  float: left;
+
+}
+
+.groupedText{
+  line-height:1%;
+  
+}
+
+.verticalcenter {
+  display: table-cell;
+  height: 400px;
+  vertical-align: middle;
+}
+
+
+/* Clear floats after the columns */
+.row3{
+  display: flex;
+  width: 100%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.alignLeft {
+  float: left;
+
+}
+
+.alignRight {
+  float: right;
+}
+
+.alignCenter {
+  margin: 0 auto;
+}
+
+
+
+section, aside, div {
+  padding: 20px;
+  border-radius: 21px;
+  margin: 12px;
+  margin-top: 20px;
+}
+
+
+
+.mainColor {
+  background-color: #F5F5F1;
+}
+
+.sidebarColor{
+  background-color: #292F33;
+}
+
+
+.flexContainer{
+    display: flex;
+}
+
+
+.mainContent{
+  flex: 1;
+  text-align: justify;
+  padding: 4% 5%;
+}
+
+
+.sidebar {
+  flex: .5;
+  text-align: center;
+  vertical-align: auto;
+}
+
+
+.responsive{
+  width: 100%;
+  height: auto;
+  max-width: 60%;
+}
+
+
+.parallax1{
+  border-radius: 0px;
+  background: url(../images/Parallax1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.parallax2{
+  border-radius: 0px;
+  background: url(../images/Parallax2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.parallax3{
+  border-radius: 0px;
+  background: url(../images/Parallax3.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.parallax4{
+  border-radius: 0px;
+  background: url(../images/Parallax4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.parallaxText{
+  color: white;
+  font-size: 96px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow:8px 8px rgb(107, 107, 107);
+  text-transform: uppercase;
+  font-family: 'Acme';
+}
+
+img{
+  border-radius: 6px;
+  border: 4px solid black;
+}
