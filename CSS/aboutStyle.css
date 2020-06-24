@@ -54,8 +54,8 @@ section, aside, div {
   display: flex;
   flex: 1;
   align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   line-height: 200%;
   font-weight: lighter;
   text-align: justify;
