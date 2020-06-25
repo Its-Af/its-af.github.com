@@ -1,0 +1,132 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #CCD6DD;
+  margin-bottom: 20px;
+}
+
+.boxStyle {
+  border: 1px solid #6b6b6b;
+  background-color: rgba(192, 192, 192, 0.87);
+  box-shadow: 0 20px 40px rgba(212, 212, 212, 0.596), 0 10px 20px rgba(43, 43, 43, 0.726);
+}
+
+.imgCenterHorizontally {
+  text-align: center;
+}
+
+.imgBorder {
+  border: 3px solid black;
+}
+
+.centerImageVertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+section, aside, div {
+  padding: 20px;
+  border-radius: 21px;
+  margin: 12px;
+  margin-top: 20px;
+}
+
+.mainColor1 {
+  background-color: #f5f5f159;
+}
+
+.mainColor2 {
+  background-color: #4683b46b;
+}
+
+.mainColor3 {
+  background-color: #bd7b006e;
+}
+
+.mainColor4 {
+  background-color: #c9610069;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.parallax1 {
+  border-radius: 0px;
+  background: url(../images/Parallax1small.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100px;
+}
+
+.parallax2 {
+  border-radius: 0px;
+  background: url(../images/Parallax2.jpg) no-repeat center;
+  background-position: 20px;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100px;
+}
+
+.parallax3 {
+  border-radius: 0px;
+  background: url(../images/Parallax3.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100px;
+}
+
+.parallax4 {
+  border-radius: 0px;
+  background: url(../images/Parallax4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100px;
+}
+
+.parallaxText {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 8px 8px #6b6b6b;
+  text-transform: uppercase;
+  font-family: "Acme";
+}
+
+img {
+  border-radius: 6px;
+  border: 4px solid black;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sidebar {
+  flex: 0.5;
+  text-align: center;
+  display: none;
+}
+
+.sidebar:before {
+  /* create a full-height inline block pseudo=element */
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.sidebarColor {
+  background-color: #292F33;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 60%;
+}
