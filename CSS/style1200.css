@@ -1,0 +1,94 @@
+body {
+  background-color: white;
+  background-size: cover;
+  color: black;
+}
+
+.boxStyle {
+  box-shadow: inset 0px 0px 45px 5px rgba(0, 0, 0, 0.24);
+  margin: 25px 10px;
+}
+
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+#topContainer {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  margin: -10px;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+.sidebar {
+  flex: 1;
+  text-align: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 50%;
+  min-width: 400px;
+}
+
+@font-face {
+  font-family: BebasBig;
+  src: url(../fonts/BebasNeue-Book.otf);
+}
+@font-face {
+  font-family: BebasThin;
+  src: url(../fonts/BebasNeue-Thin.otf);
+}
+h1 {
+  font-size: 112px;
+  font-family: BebasBig;
+  letter-spacing: 2px;
+}
+
+h3 {
+  line-height: 125%;
+  font-size: 48px;
+  font-family: BebasThin;
+  letter-spacing: 2px;
+}
+
+.credentialsHeader {
+  margin-bottom: -50px;
+}
+
+span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  vertical-align: middle;
+}
+
+#topHeader {
+  position: relative;
+  bottom: 30px;
+}
+
