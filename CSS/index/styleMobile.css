@@ -24,8 +24,8 @@ body {
 #topContainer {
   background-color: black;
   color: white;
-  padding: 20px;
-  margin: -8px;
+  padding: 40px;
+  margin: -10px;
 }
 
 .flexContainer {
@@ -37,14 +37,15 @@ body {
 }
 
 .sidebar {
-  flex: 0.5;
+  flex: 1;
+  text-align: center;
 }
 
 .responsive {
   width: 100%;
   height: auto;
-  max-width: 90%;
-  min-width: 90px;
+  max-width: 50%;
+  min-width: 350px;
 }
 
 @font-face {
@@ -56,20 +57,22 @@ body {
   src: url(../../fonts/BebasNeue-Thin.otf);
 }
 h1 {
-  font-size: 30px;
+  font-size: 100px;
   font-family: BebasBig;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
 h3 {
-  line-height: 115%;
-  font-size: 20px;
-  font-family: BebasThin;
-  letter-spacing: 1px;
+  line-height: 125%;
+  font-size: 36px;
+  font-family: BebasBig;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .credentialsHeader {
-  margin-bottom: -25px;
+  margin-bottom: -50px;
 }
 
 span {
@@ -83,8 +86,7 @@ img {
 }
 
 .imgLinks {
-  max-height: 120px;
-  margin-bottom: 15px;
+  max-height: 250px;
 }
 
 ul {
@@ -92,7 +94,7 @@ ul {
 }
 
 #topHeader {
-  position: relative;
+  margin: auto;
 }
 
 #LinksButtons {
